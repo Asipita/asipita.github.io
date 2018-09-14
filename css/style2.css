@@ -1,0 +1,200 @@
+nav>.container {
+    width: 95%;
+}
+
+.x1 {
+    font-size: 1rem;
+}
+
+.x15 {
+    font-size: 1.5rem;
+}
+
+.x2 {
+    font-size: 2rem;
+}
+
+.x25 {
+    font-size: 2.5rem;
+}
+
+.x3 {
+    font-size: 3rem;
+}
+
+.x35 {
+    font-size: 3.5rem;
+}
+
+.x4 {
+    font-size: 4rem;
+}
+
+.x45 {
+    font-size: 4.5rem;
+}
+
+.x5 {
+    font-size: 5rem;
+}
+
+.x55 {
+    font-size: 5.5rem;
+}
+
+ul.social i.icon {
+    margin-right: 1rem;
+}
+
+body {
+    background-color: #343a40;
+    /*padding-top: 11vh*/
+}
+
+#brand-logo {
+    font-size: 1.4rem;
+}
+
+#namePanel {
+    font-size: 1.2rem;
+    color: darkgrey;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#namePanel:hover {
+    color: grey;
+}
+
+#rightChev {
+    font-size: 1rem;
+}
+
+nav {
+    background-color: #343a40;
+    height: 11vh;
+    box-shadow: none;
+    position: fixed;
+    z-index: 3;
+}
+
+.leftPanel {
+    /*width: 18%;*/
+    margin-top: 11vh;
+    position: fixed;
+}
+
+.leftPanel .flow-text {
+    font-size: 1.1rem;
+}
+
+.leftPanel ul li {
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    color: darkgrey;
+    font-weight: 400;
+}
+
+.leftPanel ul li:hover {
+    /*padding: 1rem;*/
+    color: grey;
+}
+
+.leftPanel ul li i {
+    margin-right: .5rem;
+}
+
+.rightPanel {
+    /*width: 82%;*/
+    margin-top: 11vh;
+    min-height: 89vh !important;
+    background-color: whitesmoke;
+}
+
+.bread {
+    /*background-color: cadetblue;*/
+    padding-left: 2rem;
+    padding: 1rem;
+}
+
+.circle-img {
+    border-radius: 100%;
+    /*width: 8rem;*/
+}
+
+.stud-card {
+    /*width: 75%;*/
+    margin: 2rem auto;
+    border-radius: .5rem;
+}
+
+.little-bio {
+    background-color: #eee;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    border-right: 1px solid lightgray;
+}
+
+.bio-details ul {
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-self: center;
+    /*flex-wrap: wrap;*/
+}
+
+.bio-details ul li {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.bio-details .flow-text {
+    font-size: 1.2rem;
+}
+
+.about-text {
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 75%;
+    /*margin: 3rem auto;*/
+    font-size: 1.3rem !important;
+    /*background-color: rgba(200, 200, 200, .2);*/
+    background: transparent;
+    /*border: 1px solid lightgray;*/
+}
+
+.ticket_header p {
+    padding: .3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.ticket-hist {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+.ticket-hist form {
+    width: 4rem !important;
+}
+
+select {
+    border: 1px solid darkgrey;
+}
+
+.tabloid {
+    border: 1px solid lightgray;
+}
+
+.collapsible li {
+    margin-bottom: .5rem;
+}
