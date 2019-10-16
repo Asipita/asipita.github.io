@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Asipita | Portfolio</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<!-- <script src="images/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"></script> -->
+	<script src="https://kit.fontawesome.com/853e8f7a0c.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Turret+Road&display=swap" rel="stylesheet">
+	<style>
+		*{
+			font-family: 'Comfortaa', cursive;
+/*font-family: 'Turret Road', cursive;*/
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<nav>
+		<a href="/" id="brand-logo">Asipita</a>
+		<ul>
+			<li><a href="works.html">projects</a></li>
+			<li><a href="certifications.html">certifications</a></li>
+		</ul>
+	</nav>
+	<main>
+	<section id="first">
+		<div class="big-circle">
+			<div class="smaller-circle">
+				<img height="100%" width="100%" style="border-radius: 50%" src="images/asipita.jpg" alt="">
+			</div>
+		</div>
+		<div class="welcomeText">
+			<h1 class="welcomeMessage"><span id="greetingTime">Morning</span> I am Asipita</h1>
+			<p>A front-end web developer, let's collaborate and build awesome stuff :D</p>
+			<!-- <button><a mailto="sh.abdulgafar@gmail.com">Contact</a></button> -->
+			<button style="background-color: white;"><a href="works.html" style="color: green; font-weight: bold">View projects</a></button>
+		</div>
+	</section>
+	<section id="second">
+		<div>
+			<i class="fab fa-html5" title="HTML5"></i>
+			<i class="fab fa-css3" title="CSS3"></i>
+			<i class="fab fa-js-square" title="JavaScript"></i>
+			<i class="fab fa-node-js" title="Node.js"></i>
+			<i class="fab fa-vuejs" title="Vue JS"></i>
+			<i class="fab fa-react" title="React"></i>
+		</div>
+	</section>
+	<section id="third">
+		<p style="color: white; text-align: center; text-transform: uppercase; font-size: 1.5rem;">What i do</p>
+
+		<div>
+			<div class="card">
+				<div class="overlay">
+					<p class="card-title">RESponsive <br> web designing</p>
+				</div>
+				<img src="images/vector1.png" width="100%" height="60%" alt="">
+				<div class="card-text">
+					I build web pages that respond and adapt to different screen sizes and devices
+				</div>
+				<div class="card-icons">
+					<i class="ion-social-html5-outline"></i>
+					<i class="ion-social-css3-outline" title="CSS3"></i>
+				</div>
+			</div>
+			<div class="card">
+				<div class="overlay">
+					<p class="card-title">PSD <br> conversion</p>
+				</div>
+				<img src="images/custom-website.png" width="100%" height="60%" alt="">
+				<div class="card-text ">
+					I breathe life into mock-ups, PSDs or even pencil sketches, using the required technologies.
+				</div>
+				<div class="card-icons">
+					<i class="ion-social-html5-outline"></i>
+					<i class="ion-social-css3-outline" title="CSS3"></i>
+					<i class="ion-social-javascript"></i>
+				</div>
+			</div>
+			<div class="card">
+				<div class="overlay">
+				<p class="card-title">Single page <br> applications</p>
+				</div>
+				<img src="images/spa.jpeg" width="100%" alt="">
+				<div class="card-text">
+					I develop optimized, fast, scalable Single Page Applications using the Vue.js or React framework
+				</div>
+				<div class="card-icons">
+					<i class="ion-social-html5-outline"></i>
+					<i class="ion-social-css3-outline" title="CSS3"></i>
+					<i class="ion-social-javascript"></i>
+					<i class="fab fa-react"></i>
+					<i class="fab fa-vuejs"></i>
+				</div>
+			</div>
+		</div>
+  	</section>
+	<div>
+		<p style="text-align: center; margin-bottom: 1rem; color: white;">&copy 2019. made with <i style="color:red" class="ion-heart"></i> by Asipita</p>
+	</div>
+	</main>
+
+	<footer>
+		<section>
+			<a href="#!" type="button"><i class="ion-navicon-round"></i></a>
+			<a href="https://www.github.com/asipita" class="social"><i class="ion-social-github"></i></a>
+			<a href="https://fb.me/dev.asipita" class="social"><i class="ion-social-facebook"></i></a>
+			<a href="https://twitter.com/_asipita_" class="social"><i class="ion-social-twitter"></i></a>
+			<!-- <a href="" class="social"><i class="ion-social-instagram"></i></a> -->
+			<!-- <a href="" class="social"><i class="ion-social-reddit"></i></a> -->
+			<!-- <a href="" class="social"><i class="ion-social-medium"></i></a> -->
+			<a href="wa.me/+23407018436179" class="social"><i class="ion-social-whatsapp"></i></a>
+		</section>
+	</footer>
+
+	<script>
+		const currentTime = new Date()
+		const current = currentTime.getHours()
+		// let current = 15	
+
+		const timeOfDay = () =>{
+			return (current >= 4 && current <= 11)? "Good morning,": (current >= 12 && current < 17) ? "Good afternoon,": (current >= 17 && current < 21) ? "Good evening," : "How's your night been?"
+		}
+
+		document.querySelector("#greetingTime").textContent = timeOfDay()
+
+		document.querySelector(".ion-navicon-round").addEventListener('click', ()=>{
+			for(element of document.querySelectorAll(".social")){
+				if(element.style.visibility === "hidden" || element.style.visibility == ""){
+					element.style.visibility = "visible"
+				}else{
+					element.style.visibility = "hidden"
+				}
+			}
+
+		})
+				
+	</script>
+</body>
+</html>

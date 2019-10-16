@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Asipita | Portfolio</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Turret+Road&display=swap" rel="stylesheet">
+	<style>
+		*{
+			font-family: 'Comfortaa', cursive;
+/*font-family: 'Turret Road', cursive;*/
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		main > section {
+			width: 95%;
+			margin: 0 auto;
+			min-height: 3rem;
+			background-color: whitesmoke;
+			margin-top: 1rem;
+			padding: 1rem;
+		}
+		main > section > header{
+			text-align: center;
+			/*font-family: 'segoe UI';*/
+			font-size: 1.2rem;
+			color: #666;
+			font-weight: 300;
+		}
+
+		main > section > ul article header{
+			/*text-align: center;*/
+			font-weight: 900;
+			color: #666;
+			font-size: 1.3rem; 
+		}
+
+		main > section > ul > li {
+			/*margin-bottom: 4rem;*/
+			padding: 3rem 0;
+			border-bottom: 2px solid purple;
+			/*border-bottom: 2px solid grey;*/
+		}
+
+		main > section > ul > li .story{
+			/*font-family: 'segoe UI';*/
+			font-weight: light;
+			color: #333;
+		}
+
+		main > section .story-tab{
+			display: grid;
+			grid-template-columns: 1fr 5fr;
+			/*align-items: center;*/
+		}
+
+		.story-tab .story{
+			/*align-items: center;*/
+			color: #666;
+			padding: 0.1rem;
+			font-size: 1rem;
+			line-height: 1.7rem;
+			/*text-align: justify;*/
+
+		}
+
+		.story-tab div{
+			width: 100%;
+			height: 25rem;
+			overflow-y: scroll;
+		}
+
+		.story-tab div > img{
+			width: 100%;
+		}
+
+		@media screen and (max-width: 900px){
+			main > section .story-tab{
+				grid-template-columns: 1fr;
+			}
+		}
+
+		@media screen and (max-width: 600px){
+			main > section .story-tab{
+				grid-template-columns: 1fr;
+			}
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<a href="index.html" id="brand-logo">Asipita</a>
+		<ul>
+			<li><a href="works.html">projects</a></li>
+			<li><a href="certifications.html">certifications</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<header>
+				I have worked on quite a few interesting projects... 
+			</header>
+			<hr>
+			<ul>
+				<li>
+					<article>
+						<header>
+							FindX
+						</header>
+						<div class="story-tab">
+							<p class="story">
+								Whilst in my final year in school, I got motivated to build a website where students can log items they've lost e.g books, bags, drawing boards, or money (haq haq haq). Students who find items could also log them, so basically it was a medium for "Finders" and "Losers" to meet.
+								
+							</p>
+							<div>
+								<img src="works/findX.png" alt="Screenshot of FindX">									
+							</div>
+						</div>
+						
+					</article>
+				</li>
+				<li>
+					<article>
+						<header>
+							Projects Den
+						</header>
+						<div class="story-tab">
+							<p class="story">
+								During industrial training, I was tasked to build a Full-stack project from just a simple idea, a place where final year students can get projects and project ideas, also submit project topics for researchers on the platform to work on, I built it using Node.js and MongoDB   
+								<br><br>  
+							</p>
+							<div>
+								<img src="works/projectsden.jpg" alt="Screenshot of FindX">									
+							</div>
+						</div>
+						
+					</article>
+				</li>
+				<li>
+					<article>
+						<header>
+							Taxi Dashboard
+						</header>
+						<div class="story-tab">
+							<p class="story">
+								A developer friend of mine was working on a taxi-hailing website, like Uber, to be used within school metropolis he tasked me to build a user dashboard for him. Back then I used Materializecss and jQuery    
+								<br><br>  
+							</p>
+							<div>
+								<img src="works/dashboard.jpg" alt="Screenshot of FindX">									
+							</div>
+						</div>
+						
+					</article>
+				</li>
+				
+			</ul>
+		</section>
+	</main>
+	<footer>
+		
+	</footer>
+</body>
+</html>
