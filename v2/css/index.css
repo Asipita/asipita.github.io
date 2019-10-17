@@ -178,7 +178,7 @@ main > #second > div > i{
 	border-radius: .4rem;
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
-	background-color: rgba(0,0,0,.9);
+	background-color: rgba(0,0,0,.75);
 }
 
 .card > .overlay > .card-title{
