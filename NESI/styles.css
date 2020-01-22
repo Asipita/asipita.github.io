@@ -84,22 +84,22 @@ main > section > article{
 
 article{
   font-family: 'Raleway';
-  line-height: 1.5rem;
+  line-height: 2rem;
   font-size: 1.2rem;
 }
 
 section > header{
   font-weight: 800;
-  background-color: rgb(3, 3, 32);
   padding: .5rem;
 }
 
 section > header > span{
-  /* background-color: white; */
+  background-color: rgba(3, 3, 32, 0.1);
+  color: rgb(3, 3, 32);
   padding: 0.3rem 0.5rem;
   border-radius: 5px;
   font-family: 'Roboto';
-  color: white;
+  /* color: white; */
   font-weight: 600;
 }
 
