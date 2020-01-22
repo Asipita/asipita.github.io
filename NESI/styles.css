@@ -49,12 +49,12 @@ main > header{
   color: ghostwhite;
   text-shadow: 2px 2px 5px black;
   box-shadow: 0 2px 5px black;
-  font-family: 'Open Sans', cursive
+  font-family: 'Corben', cursive
 
 }
 
 main > header > span{
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 main > header > button{
@@ -68,22 +68,24 @@ main > section{
   background: white;
   color: rgba(27, 25, 25, 0.9);
   /* border: 1px solid rgba(3, 3, 32, .5); */
-  margin: 1rem 0.5rem;
+  margin: 1.5rem 0.5rem;
   border-radius: 2px;
-  box-shadow: 0 2px 5px rgba(0,0,0,.5);
+  padding-bottom: 1rem;
+  /* box-shadow: 0 2px 5px rgba(0,0,0,.5); */
 }
+
 main > section > article{
-  padding: .5rem;
+  padding: 1rem;
   font-family: 'Raleway';
   line-height: 1.5rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 
 }
 
 article{
   font-family: 'Raleway';
   line-height: 1.5rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 section > header{
@@ -98,7 +100,7 @@ section > header > span{
   border-radius: 5px;
   font-family: 'Roboto';
   color: white;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 section ul{
@@ -114,5 +116,5 @@ section ul li{
 footer{
   /* background-color: saddlebrown; */
   padding: 0 0.5rem;
-  font-size: 0.7rem;
+  font-size: 0.85rem;
 }
