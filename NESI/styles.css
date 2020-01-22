@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 .5rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(3, 3, 32);
+}
+
+nav > ul > li{
+  display: inline;
+}
+
+nav > a{
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  font-family: 'Open sans'
+}
+
+li > a{
+  text-decoration: none;
+  color: white;
+  padding: 0.2rem;
+  border-radius: 2px;
+  border: 1px solid grey;
+  font-family: 'Open sans';
+  font-size: 0.7rem;
+}
+
+main{
+  box-sizing: border-box;
+  background-color: white;
+}
+
+main > header{
+  padding: 5rem 1rem 3rem;
+  background: rgb(3, 3, 32);
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: ghostwhite;
+  text-shadow: 2px 2px 5px black;
+  box-shadow: 0 2px 5px black;
+  font-family: 'Corben', cursive
+
+}
+
+main > header > span{
+  font-size: 0.6rem;
+}
+
+main > header > button{
+  padding: .5rem;
+  background: whitesmoke;
+  border: none;
+  border-radius: 5px;
+}
+
+main > section{
+  background: white;
+  color: rgba(27, 25, 25, 0.9);
+  /* border: 1px solid rgba(3, 3, 32, .5); */
+  margin: 1rem 0.5rem;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+main > section > article{
+  padding: .5rem;
+  font-family: 'Raleway';
+  line-height: 1.5rem;
+  font-size: .8rem;
+
+}
+
+article{
+  font-family: 'Raleway';
+  line-height: 1.5rem;
+  font-size: .8rem;
+}
+
+section > header{
+  /* margin-bottom: 1rem; */
+  font-weight: 800;
+  background-color: rgb(3, 3, 32);
+  padding: .5rem;
+  /* text-align: center; */
+}
+
+section > header > span{
+  /* background-color: white; */
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  color: white;
+  font-weight: 900;
+}
+
+section ul{
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: linear-gradient(black, blue)
+}
+
+section ul li{
+  padding-bottom: .5rem;
+}
+
+footer{
+  /* background-color: saddlebrown; */
+  padding: 0 0.5rem;
+  font-size: 0.7rem;
+}
