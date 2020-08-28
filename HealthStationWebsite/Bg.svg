@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="389px" viewBox="0 0 1920 389" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E8B2263F-932E-4AD1-806B-58AC91CFF669</title>
+    <defs>
+        <linearGradient x1="49.325979%" y1="48.4522824%" x2="50%" y2="51.5477176%" id="linearGradient-1">
+            <stop stop-color="#CCE7F9" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#E6F3FC" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(0.000000, -1595.000000)" fill="url(#linearGradient-1)">
+            <g id="03-Feature-Copy" transform="translate(-146.000000, 1440.000000)">
+                <path d="M1112.65731,155 C1482.90228,154.547364 1853.69592,274.113662 2225.03821,513.698891 C2231.99937,518.190145 2234.00163,527.474162 2229.51038,534.435324 C2226.7516,538.711262 2222.01311,541.296947 2216.92445,541.30318 L-6.11923431,544.025874 C-14.4034975,544.036017 -21.1274449,537.32852 -21.1375911,529.044257 C-21.1438583,523.927212 -18.5411594,519.159987 -14.2333983,516.398216 C360.848244,275.927626 736.478478,155.461554 1112.65731,155 Z" id="Bg" transform="translate(1105.500000, 349.500000) rotate(180.000000) translate(-1105.500000, -349.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
